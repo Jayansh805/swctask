@@ -3,7 +3,7 @@
   <li>For Backend:</li>
   cd backend<br>
   make .env file
-  <br><br>
+  <br>
   npm install<br>
   nodemon index.js<br><br>
   <li>For Frontend:</li>
