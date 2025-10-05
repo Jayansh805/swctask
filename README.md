@@ -1,10 +1,10 @@
 ## To initialize the project
 <ul>
-  <li>For Backend:</li><br>
+  <li>For Backend:</li>
   cd backend<br>
   npm install<br>
-  nodemon index.js<br>
-  <li>For Frontend:</li><br>
+  nodemon index.js<br><br>
+  <li>For Frontend:</li>
   cd frontend<br>
   npm install<br>
   npm run dev<br>
