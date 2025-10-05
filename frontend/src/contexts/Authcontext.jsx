@@ -38,7 +38,7 @@ export function AuthProvider({ children }) {
         localStorage.removeItem("token");
         setToken(null);
         setUser(null);
-        window.location.href = '/'; // Redirect to login page
+        window.location.href = '/';
         console.log("User logged out");
     };
 

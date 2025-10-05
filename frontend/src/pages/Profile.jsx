@@ -93,7 +93,6 @@ function Profile(props) {
                 }
             });
             console.log("Item deleted from wishlist:", itemId);
-            // Refresh the item list after deletion
             getWishlist();
         } catch (err) {
             console.error("Failed to delete item:", err);

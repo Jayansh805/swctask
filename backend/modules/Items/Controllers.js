@@ -57,7 +57,6 @@ export const deleteItem = async (req, res) => {
         if (!item) {
             return res.status(404).json({ message: 'Item not found' });
         }
-        // Check if the authenticated user is the creator of the item
         if (item.creator.toString() !== req.user.id) {
             return res.status(403).json({ message: 'Unauthorized' });
         }
